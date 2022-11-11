@@ -1,1 +1,15 @@
 hi developer!!!
+
+class Person{
+	private int pid;
+	private String pname;
+	
+public static void main(String[] args){
+	Person p1=new Person();
+	p1.pid=33;
+	p1.pname="Raja";
+	
+	System.out.println("person details: "p1.pid+" "+p1.pname);
+}
+
+}
